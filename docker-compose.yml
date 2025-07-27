@@ -1,0 +1,21 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: news-import-api-app
+    volumes:
+      - .:/var/www
+    ports:
+      - "8000:8000"
+
+  queue:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: news-import-api-queue
+    command: php artisan queue:work
+    depends_on:
+      - app
+    volumes:
+      - .:/var/www

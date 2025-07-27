@@ -1,0 +1,14 @@
+title,content,category,URL
+Breaking News,This is valid content,Tech,http://example.com/news1
+,Missing title field,World-Politics,http://example.com/news2
+Sports Update,Great match yesterday,Sports-Local,
+Economy Report,Economy is growing,Finance-World,http://invalid-url
+Tech Insights,New gadget released,Tech-Devices,http://example.com/gadget
+Health Tips,Stay healthy!,Health-Fitness,http://example.com/health
+Weather Alert,Storm coming soon,Weather,
+Politics Today,Government passes law,Politics-National,http://example.com/politics
+Science Daily,Research breakthrough,Science,http://example.com/science
+Empty Content,,Tech,http://example.com/emptycontent
+Valid Without URL,This row has no URL but it's okay,Local-News,
+Trailing Spaces , Content with trailing spaces , Tech - Innovation , http://example.com/spaces
+Special Characters,Content with commas, quotes, and newlines,"Tech-World","http://example.com/special?query=1&val=2"
