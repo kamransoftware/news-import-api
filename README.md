@@ -31,3 +31,4 @@ This Laravel application provides a RESTful API to upload and process CSV files 
 git clone https://github.com/kamransoftware/news-import-api.git
 cd news-import-api
 docker compose build
+docker compose up -d
