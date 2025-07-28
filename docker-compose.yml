@@ -14,6 +14,7 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: news-import-api-queue
+    entrypoint: []
     command: php artisan queue:work
     depends_on:
       - app
