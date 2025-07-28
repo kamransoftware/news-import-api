@@ -14,8 +14,7 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: news-import-api-queue
-    entrypoint: []
-    command: php artisan queue:work
+    entrypoint: ["/usr/local/bin/wait-for-composer.sh"]
     depends_on:
       - app
     volumes:

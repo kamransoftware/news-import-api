@@ -41,6 +41,9 @@ RUN chown -R www-data:www-data /var/www
 COPY ./docker/startup.sh /usr/local/bin/startup.sh
 RUN chmod +x /usr/local/bin/startup.sh
 
+COPY ./docker/wait-for-composer.sh /usr/local/bin/wait-for-composer.sh
+RUN chmod +x /usr/local/bin/wait-for-composer.sh
+
 # Expose port 8000
 EXPOSE 8000
 

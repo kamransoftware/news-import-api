@@ -3,7 +3,11 @@
 echo "🚀 Starting News Import API Setup..."
 
 # Install dependencies
-composer install --no-interaction --prefer-dist --optimize-autoloader
+# Install dependencies if not already installed
+if [ ! -d "vendor" ]; then
+  echo "Running composer install..."
+  composer install --no-interaction --prefer-dist --optimize-autoloader
+fi
 
 # Copy .env if it doesn't exist
 if [ ! -f .env ]; then
