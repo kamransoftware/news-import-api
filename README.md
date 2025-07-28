@@ -2,6 +2,8 @@
 
 This Laravel application provides a RESTful API to upload and process CSV files containing news articles asynchronously.
 
+Sample CSV file is located here: data/sample_news.csv
+
 ## 🚀 Features
 
 - Upload CSV via API
