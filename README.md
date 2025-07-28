@@ -4,6 +4,8 @@ This Laravel application provides a RESTful API to upload and process CSV files 
 
 Sample CSV file is located here: data/sample_news.csv
 
+Postman Collection accessible here: https://api.postman.com/collections/15423844-1e0d0095-3052-4c51-a772-70b6a65501df?access_key=PMAT-01K17AKR45J1WKTZGFH9EBHBXZ
+
 ## 🚀 Features
 
 - Upload CSV via API
