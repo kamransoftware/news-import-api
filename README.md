@@ -2,6 +2,8 @@
 
 This Laravel application provides a RESTful API to upload and process CSV files containing news articles asynchronously.
 
+Tests are under tests/Feature and can be run with the following command inside the app container: ./vendor/bin/pest 
+
 Sample CSV file is located here: data/sample_news.csv
 
 Postman Collection accessible here: https://api.postman.com/collections/15423844-1e0d0095-3052-4c51-a772-70b6a65501df?access_key=PMAT-01K17AKR45J1WKTZGFH9EBHBXZ
